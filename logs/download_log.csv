@@ -1,0 +1,12 @@
+﻿run_ts,snapshot_date,status,raw_rows,panel_rows_after,note
+2026-04-02 15:40:18,2026-04-02,error,,,"Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparquet package."
+2026-04-02 15:41:09,2026-04-02,error,,,"Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparquet package."
+2026-04-02 15:44:58,2026-04-02,ok,9838.0,9838.0,download + process + panel update successful
