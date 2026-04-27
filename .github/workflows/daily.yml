@@ -36,6 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add raw/ processed_daily/ panel/ model_ready/ logs/
+          git rm --cached panel/main_data.csv model_ready/main_data_model_ready.csv 2>/dev/null || true
+          git add raw/ processed_daily/ panel/main_data.parquet model_ready/main_data_model_ready.parquet logs/
           git commit -m "Daily DGEG update" || echo "No changes to commit"
           git push

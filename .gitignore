@@ -1,0 +1,5 @@
+# Ignore oversized panel CSV (tracked in parquet instead)
+panel/main_data.csv
+
+# Ignore oversized model_ready CSV (tracked in parquet instead)
+model_ready/main_data_model_ready.csv
